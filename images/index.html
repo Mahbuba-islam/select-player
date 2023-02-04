@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select best player</title>
+      <!-- link style file -->
+      <link rel="stylesheet" href="./style.css">
+         <!-- google fonts -->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+   <header class="banner">
+    <h1 class="heading">Select Your Best Five</h1>
+    <div class="line"></div>
+    <p class="content">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos quasi quod animi nihil. 
+    Est reprehenderit, voluptas excepturi omnis vitae sed quis, nobis optio in asperiores
+    voluptate consequatur cum pariatur.</p>
+   </header>
+    <main class="container">
+        <section id="all-players" class="all-player">
+            
+        <div class="player">
+            <img src="./nymer.jpg" alt="">
+            <div class="player-details">
+                <h2 id="nymer">Nymer Jr</h2>
+                <div class="goals-container">
+                    <small>45 goals</small>
+                    <div class="dot"></div>
+                    <small>139 assist</small>
+                </div>
+                <button id="nymer-btn" class="btn">Select</button>
+                
+            </div>
+            
+        </div>
+        <div class="player">
+            <img src="./Kylian-Mbappe.jpg" alt="">
+            <div class="player-details">
+                <h2 id="mbappe">Mbappe</h2>
+                <div class="goals-container">
+                    <small>40 goals</small>
+                    <div class="dot"></div>
+                    <small>117 assist</small>
+                </div>
+                <button id="mbappe-btn" class="btn">Select</button>
+                
+            </div>
+        </div>
+        <div class="player">
+            <img src="./renato sanches.jpg" alt="">
+            <div class="player-details">
+                <h2 id="renato">Renato Sanches</h2>
+                <div class="goals-container">
+                    <small>30 goals</small>
+                    <div class="dot"></div>
+                    <small>110 assist</small>
+                </div>
+                <button id="renato-btn" class="btn">Select</button>
+                
+            </div>
+        </div>
+        <div class="select">
+            <h3 id="selected" class="selected">SElected-V</h3>
+            <ol id="selected-player">
+                <!-- <li id="selected-player1">
+                
+                </li>
+                <li id="selected-player2">
+                
+                </li>
+                <li id="selected-player3">
+                
+                </li>
+                <li id="selected-player4">
+                
+                </li>
+                <li id="selected-player5">
+                
+                </li>
+                <li id="selected-player6">
+                
+                </li> -->
+            </ol>
+        </div>
+        <div class="player">
+            <img src="./Sergio-Ramos-Beard-Style.jpg" alt="">
+            <div class="player-details">
+                <h2 id="sergio">Sergio-Ramos</h2>
+                <div class="goals-container">
+                    <small>40 goals</small>
+                    <div class="dot"></div>
+                    <small>129 assist</small>
+                </div>
+                <button id="sergio-btn" class="btn">Select</button>
+                
+            </div>
+        </div>
+        <div class="player">
+            <img src="./Kylian-Mbappe.jpg" alt="">
+            <div class="player-details">
+                <h2 id="kylian">Kylian-Mbappe</h2>
+                <div class="goals-container">
+                    <small>40 goals</small>
+                    <div class="dot"></div>
+                    <small>129 assist</small>
+                </div>
+                <button id="kylian-btn" class="btn">Select</button>
+                
+            </div>
+        </div>
+        <div class="player">
+            <img src="./messi.avif" alt="">
+            <div class="player-details">
+                <h2 id="messi">Messi</h2>
+                <div class="goals-container">
+                    <small>40 goals</small>
+                    <div class="dot"></div>
+                    <small>129 assist</small>
+                </div>
+                <button id="messi-btn" class="btn">Select</button>
+                
+            </div>
+        </div>
+        <div class="budget">
+            <h3>Budget</h3>
+            <div class="budget-details">
+                <label for="">per Player:
+                    <input id="per-player" type="text">
+                </label>
+                <button id="calculate-btn" class="btn">Calculate</button>
+                <p>Player Expense: $<span id="expense">000</span></p>
+                <label for="">Manager:
+                    <input id="manager" type="text">
+                </label>
+                <label for="">Coach:
+                  <input id="coach" class="coach" type="text">
+                </label>
+                <button id="total-btn" class="btn">Calculate Total</button>
+                <p>Total $<span id="total">000</span></p>
+            </div>
+            
+        </div>
+        </section>
+
+       
+    </main>
+    <footer>
+        <p>Copyright &copy; 2022 All Rights Reserved</p>
+    </footer>
+    <!-- link js file -->
+    <script src="./app.js"></script>
+</body>
+</html>

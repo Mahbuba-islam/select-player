@@ -1,0 +1,192 @@
+
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #3a3131;
+    border: 1px solid rgba(205, 207, 207, 0.781);
+    
+}
+.banner{
+    background-image: linear-gradient(to bottom right, rgb(5, 4, 4) , rgb(48, 42, 42), rgb(2, 2, 53)), 
+    url('./Kylian-Mbappe.jpg');
+    width: full;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    
+}
+
+.banner h1{
+  color: rgb(241, 68, 15);
+  text-align: center;
+  padding: 17px 0px;
+  font-size: 60px;
+  font-family: 'Norican', cursive;
+  
+}
+
+
+
+.banner p{
+    text-align: center;
+    color: white;
+    width: 600px;
+    padding: 0% 2px;
+     
+}
+
+.container{
+    margin: 20px auto;
+}
+
+.all-player{
+ display: grid;
+ grid-template-columns: repeat(4, 0fr);
+ grid-row-gap: 20px;
+ grid-column-gap: 20px;
+ margin: 20px auto;
+ width: 60%;
+ color: white;
+ 
+}
+
+.player{
+ border: 1px solid rgba(205, 207, 207, 0.781);
+ height: 290px;
+ width: 190px;
+ background-color: #000000b2;
+ 
+ }
+
+.player-details{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+
+.btn{
+  padding: 5px 30px;
+  border: none;
+  background: rgb(25, 155, 133);
+  color: white;
+  border-radius: 5px;
+  margin-top: 5px;
+  
+}
+
+.btn:hover{
+    background-color: #0662ad;
+}
+
+.goals-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+
+.dot{
+  background: #515457;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+}
+
+.player img{
+height: 150px;
+width: 190px;
+}
+
+
+
+.select{
+    background-color: #000000b2;
+    height: 290px;
+    width: 190px;
+    color: white;
+    text-align: center;
+    
+    
+}
+
+.select h3{
+    margin: 30px 0px;
+}
+
+.select ol{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    align-items: flex-start;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.budget{
+    background-color: #000000b2;
+    height: 380px;
+    width: 230px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.budget-details{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   row-gap: 20px;
+   padding: 5px 5px;
+   
+}
+
+.budget-details button{
+    background-color: #045aa0cc;
+    padding: 7px 40px;
+    width: 180px;
+    
+}
+
+
+.budget-details label{
+  width: 210px;
+  text-align: center;
+  margin-left: 20px;
+   
+}
+
+.budget-details input{
+   width: 60px;
+  padding: 2px 20px;
+   
+}
+.coach{
+  margin-left: 10px;
+}
+footer{
+    margin-top: 50px;
+    border-top: 1px solid rgba(205, 207, 207, 0.781);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
